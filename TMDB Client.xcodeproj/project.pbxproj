@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D815CD491F03CE9700807EA3 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D815CD481F03CE9700807EA3 /* MoviesTableViewCell.swift */; };
+		D815CD4B1F042AD400807EA3 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D815CD4A1F042AD400807EA3 /* MovieDetailsViewController.swift */; };
+		D85702011F022CDB00A65552 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85702001F022CDB00A65552 /* MoviesTableViewController.swift */; };
+		D85702031F0232CA00A65552 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85702021F0232CA00A65552 /* Movie.swift */; };
+		D8C578601F04D2DF00ED1FF7 /* TVShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C5785F1F04D2DF00ED1FF7 /* TVShowTableViewController.swift */; };
 		D8F9B7D91F01912500DC7AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B7D81F01912500DC7AE7 /* AppDelegate.swift */; };
-		D8F9B7DB1F01912500DC7AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B7DA1F01912500DC7AE7 /* ViewController.swift */; };
 		D8F9B7DE1F01912500DC7AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F9B7DC1F01912500DC7AE7 /* Main.storyboard */; };
 		D8F9B7E11F01912500DC7AE7 /* TMDB_Client.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B7DF1F01912500DC7AE7 /* TMDB_Client.xcdatamodeld */; };
 		D8F9B7E31F01912500DC7AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F9B7E21F01912500DC7AE7 /* Assets.xcassets */; };
@@ -16,9 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D815CD481F03CE9700807EA3 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		D815CD4A1F042AD400807EA3 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		D85702001F022CDB00A65552 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		D85702021F0232CA00A65552 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D8C5785F1F04D2DF00ED1FF7 /* TVShowTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowTableViewController.swift; sourceTree = "<group>"; };
 		D8F9B7D51F01912500DC7AE7 /* TMDB Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMDB Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F9B7D81F01912500DC7AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8F9B7DA1F01912500DC7AE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8F9B7DD1F01912500DC7AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8F9B7E01F01912500DC7AE7 /* TMDB_Client.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TMDB_Client.xcdatamodel; sourceTree = "<group>"; };
 		D8F9B7E21F01912500DC7AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				D8F9B7D81F01912500DC7AE7 /* AppDelegate.swift */,
-				D8F9B7DA1F01912500DC7AE7 /* ViewController.swift */,
 				D8F9B7DC1F01912500DC7AE7 /* Main.storyboard */,
+				D85702021F0232CA00A65552 /* Movie.swift */,
+				D85702001F022CDB00A65552 /* MoviesTableViewController.swift */,
+				D8C5785F1F04D2DF00ED1FF7 /* TVShowTableViewController.swift */,
+				D815CD481F03CE9700807EA3 /* MoviesTableViewCell.swift */,
+				D815CD4A1F042AD400807EA3 /* MovieDetailsViewController.swift */,
 				D8F9B7E21F01912500DC7AE7 /* Assets.xcassets */,
 				D8F9B7E41F01912500DC7AE7 /* LaunchScreen.storyboard */,
 				D8F9B7E71F01912500DC7AE7 /* Info.plist */,
@@ -140,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F9B7DB1F01912500DC7AE7 /* ViewController.swift in Sources */,
+				D85702011F022CDB00A65552 /* MoviesTableViewController.swift in Sources */,
 				D8F9B7E11F01912500DC7AE7 /* TMDB_Client.xcdatamodeld in Sources */,
+				D815CD4B1F042AD400807EA3 /* MovieDetailsViewController.swift in Sources */,
+				D8C578601F04D2DF00ED1FF7 /* TVShowTableViewController.swift in Sources */,
+				D815CD491F03CE9700807EA3 /* MoviesTableViewCell.swift in Sources */,
+				D85702031F0232CA00A65552 /* Movie.swift in Sources */,
 				D8F9B7D91F01912500DC7AE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = "TMDB Client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaly-plivachuk.TMDB-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = "TMDB Client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaly-plivachuk.TMDB-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,6 +326,7 @@
 				D8F9B7EC1F01912500DC7AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
